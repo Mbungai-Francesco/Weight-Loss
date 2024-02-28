@@ -1,0 +1,26 @@
+header ul li:nth-child(4){
+  color: #D14200;
+}
+.meals{
+  display: flex;
+  flex-direction: column;
+}
+.meal{
+  display: flex;
+}
+.meals > h1{
+  margin-bottom: 1em;
+  font-weight: 500;
+}
+.meals p{
+  font-size: 1.5em;
+}
+.meals .left{
+  width: 50%;
+  text-align: center;
+  padding: 4em 0;
+  background-color: #e7e5d0;
+}
+.meals .left>img{
+  width: 80%;
+}
