@@ -87,15 +87,15 @@ section{
 .details .card p{
   line-height: 1.5em;
 }
-.card input[type=button]{
+.card input[type=button], .lastbtn{
   width: 30%;
-  padding: 0.5em 3em;
+  padding: 0.5em 0em;
   font-size: 1.1em;
   margin: 2em 32%;
   background-color: transparent;
   border: 2px black solid;
 }
-.card input[type=button]:hover{
+.card input[type=button]:hover,.lastbtn:hover{
   border-color: #D14200;
   color: #D14200;
   font-weight: 700;
@@ -173,7 +173,7 @@ section{
 .Benefits .cards .card, .bout .cards .card{
   width: 20%;
 }
-.Benefits .cards .card, .bout .cards .card:hover{
+.Benefits .cards .card:hover, .bout .cards .card:hover{
   cursor: pointer;
 }
 .categories{
