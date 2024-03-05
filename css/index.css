@@ -131,6 +131,7 @@ section{
 .about > h1{
   font-weight: 500;
   margin-top: 1em;
+  margin-bottom: 2em;
 }
 .about > p{
   font-size: 1.5em;
@@ -165,12 +166,13 @@ section{
 .bout .cards .card:nth-child(1){
   width: 35%;
   font-size: 1.2em;
-  align-self: center;
+  padding: 2em;
 }
 .bout .cards .card{
   width: 20%;
 }
 .Benefits .cards .card, .bout .cards .card{
+  transition: 0.5s ease-in-out;
   width: 20%;
 }
 .Benefits .cards .card:hover, .bout .cards .card:hover{
@@ -206,7 +208,11 @@ section{
   justify-content: space-around;
 }
 .categories .block .items{
+  /* background-color: #D14200; */
   width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .categories .block .items img{
   width: 100%;
@@ -229,4 +235,12 @@ section{
   font-weight: 700;
   cursor: pointer;
   /* font-size: 1.2em; */
+}
+.Benefits .cards .card:hover{
+  transform: scale(1.02);
+  filter: saturate(1.3);
+}
+.Benefits .cards:hover > .card:not(:hover){
+  filter: blur(5px);
+  transition: 0.5s ease-in-out;
 }

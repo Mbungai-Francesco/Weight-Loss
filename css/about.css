@@ -1,3 +1,42 @@
 header ul li:nth-child(5){
   color: #D14200;
 }
+::placeholder{
+  color: black;
+}
+.bout form{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+form input, textarea{
+  margin-bottom: 2em;
+  padding: 1em;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  border: 1px solid black;
+}
+form .names{
+  display: flex;
+  justify-content: space-between;
+}
+form .names input{
+  color: black;
+  width: 43%;
+}
+.boutbtn{
+  width: 30%;
+  padding: 0.5em 0em;
+  font-size: 1.1em;
+  margin: 2em 32%;
+  background-color: transparent;
+  border: 1px solid black;
+}
+.boutbtn:hover{
+  border-color: #D14200;
+  color: #D14200;
+  font-weight: 700;
+  cursor: pointer;
+  /* font-size: 1.2em; */
+}

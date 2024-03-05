@@ -26,19 +26,72 @@
   </header>
   <section class="meals">
     <form action="">
-      <div class="forms">
-        <input type="text" name="" id="" placeholder="First Name">
-        <!-- <p class="red-text">First Name can't be empty</p>  -->
-        <input type="text" name="" id="" placeholder="Last Name">
-        <!-- <p class="red-text">Last Name can't be empty</p>  -->
-        <input type="text" name="" id="" placeholder="Region of origin">
-        <!-- <p class="red-text">Looks like this not an email</p>  -->
-        <input type="text" name="" id="" placeholder="Blood type">
-        <input type="text" name="" id="" placeholder="Allergies">
-        <!-- <p class="red-text">Password can't be empty</p>  -->
-      </div>
-      <button type="button" onclick="claim()">CLAIM YOUR FREE TRIAL</button>
-      <p class="term">By clicking the button, you are agreeing to our <strong>Terms and Services</strong></p>
+      <fieldset>
+        <legend>Info</legend>
+        <div class="names">
+          <input type="text" placeholder="First name">
+          <input type="text" placeholder="Last name">
+        </div>
+        <label for="date">Date of birth:</label>
+        <input name="date" type="date" value="Date of birth"><br>
+        <label for="region">Region</label>
+        <select name="region" id="">
+          <option value="Adamawa">Adamawa</option>
+          <option value="Center">Center</option>
+          <option value="East">East</option>
+          <option value="Far-North">Far-North</option>
+          <option value="Litoral">Litoral</option>
+          <option value="North">North</option>
+          <option value="North-west">North-west</option>
+          <option value="South">South</option>
+          <option value="South-west">South-west</option>
+          <option value="West">West</option>
+        </select>
+        <div class="sex radios">
+          <label for="sex">Your gender</label>
+          <div>
+            <input type="radio" name="sex" id="">
+            <p>male</p>
+            <input type="radio" name="sex" id="">
+            <p>female</p>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Diet</legend>
+        <label for="frequency">Frequency of meal</label>
+        <select name="frequency" id="">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+        </select>
+        <div class="type radios">
+          <label for="type">Type of meal</label>
+          <div>
+            <input type="radio" name="type" id="">
+            <p>Light</p>
+            <input type="radio" name="type" id="">
+            <p>Heavy</p>
+          </div>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Health info</legend>
+        <label for="blood">Blood Type</label>
+        <select name="blood" id="">
+          <option value="1">A-</option>
+          <option value="1">A</option>
+          <option value="1">A+</option>
+          <option value="2">B-</option>
+          <option value="2">B</option>
+          <option value="2">B+</option>
+          <option value="3">O-</option>
+          <option value="3">O</option>
+          <option value="4">O+</option>
+        </select>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Any allergies?"></textarea>
+      </fieldset>
     </form>
   </section>
  </body>

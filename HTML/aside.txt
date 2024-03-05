@@ -1,0 +1,18 @@
+<div class="card">
+          <h2>Mission Statement</h2>
+          <p>
+            Our mission is to inspire and empower individuals to take control of their health through 
+            evidence-based nutrition education, personalized dietary plans, and ongoing support. We are 
+            committed to helping our clients make sustainable lifestyle changes that promote long-term 
+            health and vitality.
+          </p>
+        </div>
+        <div class="card">
+          <h2>Vision</h2>
+          <p>
+            Our vision is a world where every individual has access to the knowledge, resources, 
+            and support they need to nourish their bodies, minds, and spirits. We envision a future 
+            where preventative healthcare and holistic wellness practices are the cornerstone of well-being, 
+            leading to happier, healthier lives for all.
+          </p>
+        </div>
